@@ -13,9 +13,9 @@ package galtolit;
  * This program converts gallons to liters
  * Call this program GalToLit.java
  */
-public class GalToLit {
+class GalToLit {
 
-    public static void main(String args[]) {
+    public static void main(String[] args) {
         double gallons; //holds the number of gallons
         double liters; //holds the conversion to liters
         
@@ -23,7 +23,7 @@ public class GalToLit {
         
         liters = gallons * 3.7854; //converts to liters
         
-        System.out.printIn(gallons + " gallons is " + liters + " liters.");
+        System.out.println(gallons + " gallons is " + liters + " liters.");
         
     }
     
