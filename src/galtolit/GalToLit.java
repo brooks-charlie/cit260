@@ -21,7 +21,7 @@ class GalToLit {
         
         gallons = 10; //start with 10 gallons
         
-        liters = gallons * 3.7854; //converts to liters - test 111212
+        liters = gallons * 3.7854; //converts to liters - test
         
         System.out.println(gallons + " gallons is " + liters + " liters.");
         
